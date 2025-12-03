@@ -9,7 +9,7 @@ import java.util.List;
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idClient;
+     Long idClient;
 
     private String identifiant;
     private Date datePremiereVisite;
